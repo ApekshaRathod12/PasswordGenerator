@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 155px;
+    /* align-items: self; */
+    background-image: url('https://www.cybersafesolutions.com/hubfs/Blog/CybersafeSolutions-Blog-What-Are-the-Different-Types-of-Cybersecurity-Assessments.jpg');
+    background-size: cover;
+}
+
+.heading{
+    font-size:14px;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.container{
+    height:300px;
+    width: 340px;
+    padding-left: 52px;
+    padding-top: 45px;
+    border: 2px solid #ffffff30;
+    background-color: #ffffff22;
+    border-radius:4%;
+}
+
+.copy-img{
+    width: 20px;
+    height: 20px;
+}
+
+.display{
+    height: 28px;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+}
+
+.length-container ,.strength-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.slider{
+    width: 220px;
+    height: 20px;
+    color: palevioletred;
+}
+
+.disc{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.generateBtn{
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(58, 58, 251);
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.strength{
+    border: 1px solid white;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px , -1px -1px 2px ;
+}
